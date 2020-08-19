@@ -1,0 +1,115 @@
+*{
+  margin: 0 auto;
+}
+.first-div{
+  background-color: black;
+  height: 6vh;
+  width: 100vw;
+
+}
+.sub-div{
+  border: red 1px dashed;
+  
+}
+.second-div{
+  background-color: grey;
+  height: 6vh;
+  width: 100vw;
+}
+.space1{
+  
+  display: flex;
+  padding: 200px;
+  margin-top: -160px;
+}
+.third-div{
+  background-color:green;
+  height: 30vh;
+  width: 30vw;
+  margin-right: 90px ;
+  
+}
+.fourth-div{
+  background-color:rgb(84, 10, 255);
+  height: 30vh;
+  width: 30vw;
+  margin-right: 90px
+}
+.fiveth-div{
+  background-color:rgb(146, 3, 122);
+  height: 30vh;
+  width: 30vw;
+  margin-right: 90px
+}
+.sixth-div{
+  background-color:rgb(7, 156, 182);
+  height: 30vh;
+  width: 30vw;
+  margin-right: 90px ;
+}
+.seventh-div{
+  background-color:rgb(0, 0, 0);
+  height: 30vh;
+  width: 30vw;
+  margin-right: 90px ;
+}
+.eighth-div{
+  background-color:rgb(187, 218, 11);
+  height: 30vh;
+  width: 30vw;
+  margin-right: 90px ;
+}
+.nineth-div{
+  background-color: rgb(255, 0, 43);
+  height: 8vh;
+  width: 100vw;
+}
+.space2{
+  display: flex;
+  padding: 200px;
+  margin-top: -260px;
+}
+@media only screen and (max-width: 760px){
+
+.second-div{
+  
+  display: none;
+}
+.space1{
+  flex-direction: column;
+}
+.third-div{
+  margin-bottom: 40px;
+  margin-left: -60px;
+}
+.fourth-div{
+  margin-bottom: 40px;
+  margin-left: -60px;
+}
+.fiveth-div{
+  margin-bottom: 40px;
+  margin-left: -60px;
+}
+.space2{
+  flex-direction: column;
+  margin-top: -360px;
+}
+.sixth-div{
+  margin-bottom: 40px;
+  margin-left: -60px;
+}
+.seventh-div{
+  margin-bottom: 40px;
+  margin-left: -60px;
+}
+.eighth-div{
+  margin-bottom: 40px;
+  margin-left: -60px;
+}
+
+
+
+
+
+}
+
